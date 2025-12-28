@@ -433,6 +433,7 @@ honest and how many are corrupt? If so, what is the answer?
 #### Question no.47
 
 ![](https://github.com/PragadeeshM1608/Discrete-Mathematics-and-Its-Applications/blob/main/SOLUTIONS/CHAPTER_1_The-Foundations-Logic-and-Proofs/image/Exercise_(1.2)_Qn.(47).jpg)
+
 <div id='end'/> 
 
 ### END 
