@@ -20,7 +20,7 @@
 - **P⋀Q (AND)** is true when **both P and Q are true**.
 - **P∨Q (OR)** is true when **at least one of P or Q is true**. → inclusive or
 - **P⨁Q (XOR)** is true when **exactly one of P or Q is true**. → exclusive or
-- **P→Q (IMPLIES)** is true when **P is false or Q is true**.
+- **P→Q (IMPLIES)** is true when **P is false or Q is true**.  P → (Condition/trigger), Q → (Result/cause) 
 - **P↔Q (BICONDITIONAL)** is true when **P and Q have the same truth value**.  
 
 <br>
