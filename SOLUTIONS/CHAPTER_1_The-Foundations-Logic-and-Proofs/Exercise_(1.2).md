@@ -425,14 +425,20 @@ honest and how many are corrupt? If so, what is the answer?
 
 #### Question no.46
 
-![](https://github.com/PragadeeshM1608/Discrete-Mathematics-and-Its-Applications/blob/main/SOLUTIONS/CHAPTER_1_The-Foundations-Logic-and-Proofs/image/Exercise_(1.2)_Qn.(46).jpg )
+<p align="center">
+  <img src="https://github.com/PragadeeshM1608/Discrete-Mathematics-and-Its-Applications/blob/main/SOLUTIONS/CHAPTER_1_The-Foundations-Logic-and-Proofs/image/Exercise_(1.2)_Qn.(46).jpg" width="120">
+</p>
+
 
 
 <div id="47">
 
 #### Question no.47
 
-![](https://github.com/PragadeeshM1608/Discrete-Mathematics-and-Its-Applications/blob/main/SOLUTIONS/CHAPTER_1_The-Foundations-Logic-and-Proofs/image/Exercise_(1.2)_Qn.(47).jpg)
+<p align="center">
+  <img src="" width="120">
+</p>
+
 
 <div id='end'/> 
 

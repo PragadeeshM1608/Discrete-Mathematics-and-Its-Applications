@@ -79,9 +79,4 @@ Notes
 <div id="72"></div>
 
 
-<div align="center">
-<b>Centered</b>
-</div>
-
-
 
