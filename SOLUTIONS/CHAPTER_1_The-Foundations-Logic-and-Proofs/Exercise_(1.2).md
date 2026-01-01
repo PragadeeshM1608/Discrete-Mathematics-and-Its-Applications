@@ -425,7 +425,7 @@ honest and how many are corrupt? If so, what is the answer?
 
 #### Question no.46
 
-<p align="right">
+<p align="left">
   <img src="https://github.com/PragadeeshM1608/Discrete-Mathematics-and-Its-Applications/blob/main/SOLUTIONS/CHAPTER_1_The-Foundations-Logic-and-Proofs/image/Exercise_(1.2)_Qn.(46).jpg" width="500">
 </p>
 
@@ -435,7 +435,7 @@ honest and how many are corrupt? If so, what is the answer?
 
 #### Question no.47
 
-<p align="center">
+<p align="left">
   <img src="https://github.com/PragadeeshM1608/Discrete-Mathematics-and-Its-Applications/blob/main/SOLUTIONS/CHAPTER_1_The-Foundations-Logic-and-Proofs/image/Exercise_(1.2)_Qn.(47).jpg" width="500">
 </p>
 
