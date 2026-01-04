@@ -15,3 +15,4 @@ Issue[Create An Issue First ❕] --> Fork[Then Fork The Repo🍴] --> Value[Add 
 #### Still Confused
 
 [Watch Online !](https://youtu.be/zTjRZNkhiEU?t=12100)
+[Read Oline !](https://www.freecodecamp.org/news/how-to-contribute-to-open-source-projects-beginners-guide/)
