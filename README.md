@@ -1,7 +1,7 @@
 # Discrete-Mathematics-and-Its-Applications
 
 ![Finality](https://img.shields.io/badge/Finality-Pending-orange) &nbsp;&nbsp;
-[![License](https://img.shields.io/github/license/PragadeeshM1608/Discrete-Mathematics-and-Its-Applications)](https://www.freecodecamp.org/news/how-to-contribute-to-open-source-projects-beginners-guide/) &nbsp;&nbsp;
+[![License](https://img.shields.io/github/license/PragadeeshM1608/Discrete-Mathematics-and-Its-Applications)](https://www.freecodecamp.org/news/how-to-contribute-to-open-source-projects-beginners-guide) &nbsp;&nbsp;
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen) &nbsp;&nbsp;
 ![Repo Size](https://img.shields.io/github/repo-size/PragadeeshM1608/Discrete-Mathematics-and-Its-Applications) &nbsp;&nbsp;
 
