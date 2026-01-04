@@ -15,7 +15,7 @@ Issue[Create An Issue First ❕] --> Fork[Then Fork The Repo🍴] --> Value[Add 
 
 ```mermaid
 graph TD
-Review&nbsp;
+Review
 Review -->|Approved| Execute
 Review -->|Rejected| Notify
 ``` 
