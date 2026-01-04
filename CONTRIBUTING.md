@@ -7,11 +7,18 @@
 
 
 ### Contribution Flow
-```mermaid
+```txt
 graph TD
 Discuss --> Clarify[Clarify✅]&nbsp;
 Issue[Create An Issue First ❕] --> Fork[Then Fork The Repo🍴] --> Value[Add Value ➕] --> Pr[Create PR] --> Review[After the Review] --> Done[Issue Resolved✅]
 ```
+
+```mermaid
+graph TD
+Review&nbsp;
+Review -->|Approved| Execute
+Review -->|Rejected| Notify
+``` 
 
 #### Still Confused
 
