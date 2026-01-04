@@ -17,7 +17,9 @@ Issue[Create An Issue First ❕] --> Fork[Then Fork The Repo🍴] --> Value[Add 
 graph TD
 Contribute[Want to contribute?]
 Contribute --> Discuss --> clarify[Clarify✅]
-Contribute --> Issue[Create An Issue First ❕] --> Fork[Then Fork The Repo🍴] --> Value[Add Value ➕] --> Pr[Create PR] --> Review[After the Review] --> Done[Issue Resolved✅]
+Contribute --> Issue[Create An Issue First ❕] --> Fork[Then Fork The Repo🍴] --> Value[Add Value ➕] --> Pr[Create PR]
+ Pr -->|After the Review| Review
+ Review --> Done[Issue Resolved✅]
 ``` 
 
 #### Still Confused
