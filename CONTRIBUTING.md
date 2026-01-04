@@ -16,8 +16,8 @@ Issue[Create An Issue First ❕] --> Fork[Then Fork The Repo🍴] --> Value[Add 
 ```mermaid
 graph TD
 Contribute[Want to contribute?]
-Contribute -->|Approved| Execute
-Contribute -->|Rejected| Notify
+Contribute --> Discuss --> clarify[Clarify✅]
+Contribute --> Issue[Create An Issue First ❕] --> Fork[Then Fork The Repo🍴] --> Value[Add Value ➕] --> Pr[Create PR] --> Review[After the Review] --> Done[Issue Resolved✅]
 ``` 
 
 #### Still Confused
