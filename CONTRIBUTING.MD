@@ -6,10 +6,10 @@
 ----
 
 
-### Workflow Diagram
+### Contribution Flow
 ```mermaid
 graph TD
-Issue[Create An Issue First ❕] --> Fork[Then Fork The Repo🍴] --> Value[Add Value ➕] --> Pr[Create PR] --> Review --> Done[✅]
+Issue[Create An Issue First ❕] --> Fork[Then Fork The Repo🍴] --> Value[Add Value ➕] --> Pr[Create PR] --> After the Review --> Done[Issue Resolved✅]
 ```
 
 #### Still Confused
