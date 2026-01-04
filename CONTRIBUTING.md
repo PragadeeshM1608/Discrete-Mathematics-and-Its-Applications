@@ -20,6 +20,7 @@ Contribute --> Discuss --> clarify[Clarify✅]
 Contribute --> Issue[Create An Issue First ❕] --> Fork[Then Fork The Repo🍴] -->|NOTE:please notify me before any commitment| Value[Add Value ➕] -->|Get your job done 🛠️| Pr[Create PR]
  Pr --> Review[Review 🔎]
  Review -->|After the Review| Done[Issue Resolved✅]
+style Contribute fill:#e3f2fd,stroke:#1e88e5
 ``` 
 
 #### Still Confused
