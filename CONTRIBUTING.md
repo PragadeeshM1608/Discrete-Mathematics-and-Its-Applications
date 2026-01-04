@@ -17,7 +17,7 @@ Issue[Create An Issue First ❕] --> Fork[Then Fork The Repo🍴] --> Value[Add 
 graph TD
 Review
 Review -->|Approved| Execute
-Review -->|Rejected| Notify
+Review[✅] -->|Rejected| Notify
 ``` 
 
 #### Still Confused
