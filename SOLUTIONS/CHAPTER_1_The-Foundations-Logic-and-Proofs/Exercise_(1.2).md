@@ -395,12 +395,7 @@ Mineral water drinker: Norwegian
 
 #### Question no.43
 
-43. Freedonia has 50 senators. Each senator is either honest
-or corrupt. Suppose you know that at least one of the
-Freedonian senators is honest and that, given any two
-Freedonian senators, at least one is corrupt. Based on these
-facts, can you determine how many Freedonian senators are
-honest and how many are corrupt? If so, what is the answer?
+<i>Exactly one Freedonian senator is honest, and the remaining 49 senators are corrupt.</i>
 
 
 <div id="44">
