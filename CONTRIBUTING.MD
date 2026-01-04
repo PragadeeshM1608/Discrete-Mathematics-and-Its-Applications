@@ -9,7 +9,7 @@
 ### Workflow Diagram
 ```mermaid
 graph TD
-Issue[Create An Issue First ❕] --> Fork[Then Fork The Repo🍴] --> Value[Add Value ➕] --> Pr[Create PR] --> Review |"After the review"| --> Done[✅]
+Issue[Create An Issue First ❕] --> Fork[Then Fork The Repo🍴] --> Value[Add Value ➕] --> Pr[Create PR] --> Review --> Done[✅]
 ```
 
 #### Still Confused
