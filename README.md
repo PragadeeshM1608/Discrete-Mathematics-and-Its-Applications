@@ -14,6 +14,13 @@
 
 - This repository is intended to support students in understanding concepts, problem-solving approaches, and logical reasoning in discrete mathematics.
 
+### Discussions
+
+For questions, doubts, or general discussion, please use the **Discussions** tab.
+
+For errors or improvements, open an **Issue**.
+
+
 ### Contributing
 
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen) &nbsp;&nbsp;
