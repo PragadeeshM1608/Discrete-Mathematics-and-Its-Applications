@@ -9,7 +9,7 @@
 ### Contribution Flow
 ```mermaid
 graph TD
-Discuss --> Clarify&nbsp;
+Discuss --> Clarify✅&nbsp;
 Issue[Create An Issue First ❕] --> Fork[Then Fork The Repo🍴] --> Value[Add Value ➕] --> Pr[Create PR] --> Review[After the Review] --> Done[Issue Resolved✅]
 ```
 
