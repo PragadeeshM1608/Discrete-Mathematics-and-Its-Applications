@@ -17,7 +17,7 @@ Issue[Create An Issue First ❕] --> Fork[Then Fork The Repo🍴] --> Value[Add 
 graph TD
 Contribute[Want to contribute?]
 Contribute --> Discuss --> clarify[Clarify✅]
-Contribute --> Issue[Create An Issue First ❕] --> Fork[Then Fork The Repo🍴] -->|NOTE:please notify me (author) before any commitment| Value[Add Value ➕] -->|Get your job done 🛠️| Pr[Create PR]
+Contribute --> Issue[Create An Issue First ❕] --> Fork[Then Fork The Repo🍴] -->|NOTE:please notify me before any commitment| Value[Add Value ➕] -->|Get your job done 🛠️| Pr[Create PR]
  Pr --> Review[Review 🔎]
  Review -->|After the Review| Done[Issue Resolved✅]
 ``` 
