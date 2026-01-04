@@ -9,7 +9,7 @@
 ### Contribution Flow
 ```mermaid
 graph TD
-Issue[Create An Issue First ❕] --> Fork[Then Fork The Repo🍴] --> Value[Add Value ➕] --> Pr[Create PR] --> After the Review --> Done[Issue Resolved✅]
+Issue[Create An Issue First ❕] --> Fork[Then Fork The Repo🍴] --> Value[Add Value ➕] --> Pr[Create PR] --> Review[After the Review] --> Done[Issue Resolved✅]
 ```
 
 #### Still Confused
