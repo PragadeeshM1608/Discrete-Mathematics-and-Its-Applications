@@ -8,17 +8,64 @@
 
 #### Question no. 1
 
-<b>a.</b> <i>p ⋀ T ↔ p, as verified using a truth table.</i>
+<b>a.</b>
+- p ⋀ T ↔ p, as verified using a truth table.
 
-<b>b.</b> <i>p ⋁ F ↔ p, as verified using a truth table.</i>
+    | P | P ⋀ T |
+    |-------|-------|
+    | T | T |
+    | F | F |
 
-<b>c.</b> <i>p ⋀ F ↔ F, since the result is always false.</i>
 
-<b>d.</b> <i>p ⋁ T ↔ T, since the result is always true.</i>
+<b>b.</b>
+- p ⋁ F ↔ p, as verified using a truth table.
+  
+    | P | P ⋁ F |
+    |-------|-------|
+    | T | T |
+    | F | F |
 
-<b>e.</b> <i>p ⋁ p ↔ p, because both have identical truth values.</i>
 
-<b>f.</b> <i>p ⋀ p ↔ p, because both have identical truth values.</i>
+
+<b>c.</b>
+- p ⋀ F ↔ F, as verified using a truth table.
+  
+    | P | P ⋀ F |
+    |-------|-------|
+    | T | F |
+    | F | F |
+
+
+
+<b>d.</b> 
+- p ⋁ T ↔ T, as verified using a truth table.
+  
+    | P | P ⋁ T |
+    |-------|-------|
+    | T | T |
+    | F | T |
+
+
+
+<b>e.</b>
+- p ⋁ p ↔ p, as verified using a truth table.
+  
+    | P | P ⋁ P |
+    |-------|-------|
+    | T | T |
+    | F | F |
+
+
+
+<b>f.</b>
+- p ⋀ p ↔ p, as verified using a truth table.
+  
+    | P | P ⋀ P |
+    |-------|:-------:|
+    | T | T |
+    | F | F |
+
+
 
 </div>
 
@@ -27,7 +74,13 @@
 
 #### Question no. 2
 
-<i>¬(¬p) ↔ p, since double negation does not change the truth value.</i>
+- ¬(¬p) ↔ p, verified using a truth table.
+  
+    | P | ¬P | ¬(¬P) |
+    |-------|-------|:-------:|
+    | T | F | T |
+    | F | T | F |
+
 
 </div>
 
@@ -36,9 +89,29 @@
 
 #### Question no. 3
 
-<b>a.</b> <i>p ⋁ q ↔ q ⋁ p, showing that OR is commutative.</i>
+<b>a.</b>
+- Table for P ⋁ Q ↔ Q ⋁ P:
 
-<b>b.</b> <i>p ⋀ q ↔ q ⋀ p, showing that AND is commutative.</i>
+    | P | Q | P ⋁ Q | Q ⋁ P | P ⋁ Q ↔ Q ⋁ P |
+    |-------|-------|-------|-------|:-----------------:|
+    | T | T | T | T | T |
+    | T | F | T | T | T |
+    | F | T | T | T | T |
+    | F | F | F | F | T |
+
+<i>p ⋁ q ↔ q ⋁ p, showing that OR is commutative.</i>
+
+<b>b.</b>
+- Table for P ⋀ Q ↔ Q ⋀ P:
+
+    | P | Q | P ⋀ Q | Q ⋀ P | P ⋀ Q ↔ Q ⋀ P |
+    |-------|-------|-------|-------|:-----------------:|
+    | T | T | T | T | T |
+    | T | F | F | F | T |
+    | F | T | F | F | T |
+    | F | F | F | F | T |
+
+<i>p ⋀ q ↔ q ⋀ p, showing that AND is commutative.</i>
 
 </div>
 
@@ -47,9 +120,37 @@
 
 #### Question no. 4
 
-<b>a.</b> <i>(p ⋁ q) ⋁ r ↔ p ⋁ (q ⋁ r), showing associativity of OR.</i>
+<b>a.</b>
+- Table for (P ⋁ Q) ⋁ R ↔ P ⋁ (Q ⋁ R):
 
-<b>b.</b> <i>(p ⋀ q) ⋀ r ↔ p ⋀ (q ⋀ r), showing associativity of AND.</i>
+    | P | Q | R | P ⋁ Q | (P ⋁ Q) ⋁ R | Q ⋁ R | P ⋁ (Q ⋁ R) | (P ⋁ Q) ⋁ R ↔ P ⋁ (Q ⋁ R) |
+    |-------|-------|-------|-------|---------------|-------|---------------|:-----------------------------:|
+    | T | T | T | T | T | T | T | T |
+    | T | T | F | T | T | T | T | T |
+    | T | F | T | T | T | T | T | T |
+    | T | F | F | T | T | F | T | T |
+    | F | T | T | T | T | T | T | T |
+    | F | T | F | T | T | F | F | T |
+    | F | F | T | F | T | T | T | T |
+    | F | F | F | F | F | F | F | T |
+
+<i>(p ⋁ q) ⋁ r ↔ p ⋁ (q ⋁ r), showing associativity of OR.</i>
+
+<b>b.</b>
+- Table for (P ⋀ Q) ⋀ R ↔ P ⋀ (Q ⋀ R):
+
+    | P | Q | R | P ⋀ Q | (P ⋀ Q) ⋀ R | Q ⋀ R | P ⋀ (Q ⋀ R) | (P ⋀ Q) ⋀ R ↔ P ⋀ (Q ⋀ R) |
+    |-------|-------|-------|-------|---------------|-------|---------------|:-----------------------------:|
+    | T | T | T | T | T | T | T | T |
+    | T | T | F | T | F | F | F | T |
+    | T | F | T | F | F | F | F | T |
+    | T | F | F | F | F | F | F | T |
+    | F | T | T | F | F | T | F | T |
+    | F | T | F | F | F | F | F | T |
+    | F | F | T | F | F | F | F | T |
+    | F | F | F | F | F | F | F | T |
+
+<i>(p ⋀ q) ⋀ r ↔ p ⋀ (q ⋀ r), showing associativity of AND.</i>
 
 </div>
 
@@ -57,6 +158,19 @@
 <div id="5">
 
 #### Question no. 5
+
+- Table for p ⋀ (q ⋁ r) ↔ (p ⋀ q) ⋁ (p ⋀ r):
+
+    | P | Q | R | Q ⋁ R | P ⋀ (Q ⋁ R) | P ⋀ Q | P ⋀ R | (P ⋀ Q) ⋁ (P ⋀ R) | P ⋀ (Q ⋁ R) ↔ (P ⋀ Q) ⋁ (P ⋀ R) |
+    |-------|-------|-------|-------|-------------------|-------|-------|-------------------------|:-------------------------------------:|
+    | T | T | T | T | T | T | T | T | T |
+    | T | T | F | T | T | T | F | T | T |
+    | T | F | T | T | T | F | T | T | T |
+    | T | F | F | F | F | F | F | F | T |
+    | F | T | T | T | F | F | F | F | T |
+    | F | T | F | T | F | F | F | F | T |
+    | F | F | T | T | F | F | F | F | T |
+    | F | F | F | F | F | F | F | F | T |
 
 <i>p ⋀ (q ⋁ r) ↔ (p ⋀ q) ⋁ (p ⋀ r), verified using a truth table.</i>
 
@@ -66,6 +180,15 @@
 <div id="6">
 
 #### Question no. 6
+
+- Table for ¬(P ⋀ Q) ↔ (¬P ⋁ ¬Q):
+
+    | P | Q | P ⋀ Q | ¬(P ⋀ Q) | ¬P | ¬Q | ¬P ⋁ ¬Q | ¬(P ⋀ Q) ↔ (¬P ⋁ ¬Q) |
+    |-------|-------|-------|-------------|-------|-------|-----------|:-------------------------:|
+    | T | T | T | F | F | F | F | T |
+    | T | F | F | T | F | T | T | T |
+    | F | T | F | T | T | F | T | T |
+    | F | F | F | T | T | T | T | T |
 
 <i>¬(p ⋀ q) ↔ (¬p ⋁ ¬q), which is the first De Morgan law.</i>
 
@@ -106,11 +229,45 @@
 
 #### Question no. 9
 
-<b>a.</b> <i>p → ¬q ↔ ¬p ⋁ ¬q.</i>
+<b>a.</b>
+- Table for p → ¬q ↔ ¬p ⋁ ¬q:
 
-<b>b.</b> <i>(p → q) → r ↔ (p ⋀ ¬q) ⋁ r.</i>
+    | P | Q | ¬Q | P → ¬Q | ¬P | ¬P ⋁ ¬Q | P → ¬Q ↔ ¬P ⋁ ¬Q |
+    |-------|-------|-------|-----------|-------|-----------|:-------------------------:|
+    | T | T | F | F | F | F | T |
+    | T | F | T | T | F | T | T |
+    | F | T | F | T | T | T | T |
+    | F | F | T | T | T | T | T |
 
-<b>c.</b> <i>(¬q → p) → (p → ¬q) ↔ ¬p ⋁ ¬q.</i>
+<i>p → ¬q ↔ ¬p ⋁ ¬q.</i>
+
+<b>b.</b>
+- Table for (p → q) → r ↔ (p ⋀ ¬q) ⋁ r:
+
+    | P | Q | R | P → Q | (P → Q) → R | ¬Q | P ⋀ ¬Q | (P ⋀ ¬Q) ⋁ R | (P → Q) → R ↔ (P ⋀ ¬Q) ⋁ R |
+    |-------|-------|-------|-------|---------------|-------|---------|-------------------|:-------------------------------------:|
+    | T | T | T | T | T | F | F | T | T |
+    | T | T | F | T | F | F | F | F | T |
+    | T | F | T | F | T | T | T | T | T |
+    | T | F | F | F | F | T | T | T | F |
+    | F | T | T | T | T | F | F | T | T |
+    | F | T | F | T | F | F | F | F | T |
+    | F | F | T | T | T | T | F | T | T |
+    | F | F | F | T | F | T | F | F | T |
+
+<i>(p → q) → r ↔ (p ⋀ ¬q) ⋁ r.</i>
+
+<b>c.</b>
+- Table for (¬q → p) → (p → ¬q) ↔ ¬p ⋁ ¬q:
+
+    | P | Q | ¬Q | ¬Q → P | P → ¬Q | (¬Q → P) → (P → ¬Q) | ¬P | ¬P ⋁ ¬Q | (¬Q → P) → (P → ¬Q) ↔ ¬P ⋁ ¬Q |
+    |-------|-------|-------|-----------|-----------|---------------------------|-------|-----------|:-------------------------------------:|
+    | T | T | F | T | F | F | F | F | T |
+    | T | F | T | T | T | T | F | T | T |
+    | F | T | F | F | T | T | T | T | T |
+    | F | F | T | F | T | T | T | T | T |
+
+<i>(¬q → p) → (p → ¬q) ↔ ¬p ⋁ ¬q.</i>
 
 </div>
 
@@ -119,11 +276,39 @@
 
 #### Question no. 10
 
-<b>a.</b> <i>¬p → ¬q ↔ p ⋁ ¬q.</i>
+<b>a.</b>
+- Table for ¬p → ¬q ↔ p ⋁ ¬q:
 
-<b>b.</b> <i>(p ⋁ q) → ¬p ↔ ¬p.</i>
+    | P | Q | ¬P | ¬Q | ¬P → ¬Q | P ⋁ ¬Q | ¬P → ¬Q ↔ P ⋁ ¬Q |
+    |-------|-------|-------|-------|-----------|-----------|:-------------------------:|
+    | T | T | F | F | T | T | T |
+    | T | F | F | T | T | T | T |
+    | F | T | T | F | F | F | T |
+    | F | F | T | T | T | T | T |
 
-<b>c.</b> <i>(p → ¬q) → (¬p → q) ↔ p ⋁ q.</i>
+<i>¬p → ¬q ↔ p ⋁ ¬q.</i>
+
+<b>b.</b>
+- Table for (p ⋁ q) → ¬p ↔ ¬p:
+
+    | P | Q | P ⋁ Q | ¬P | (P ⋁ Q) → ¬P | (P ⋁ Q) → ¬P ↔ ¬P |
+    |-------|-------|-------|-------|-------------------|:-------------------------:|
+    | T | T | T | F | F | T |
+    | T | F | T | F | F | T |
+    | F | T | T | T | T | T |
+    | F | F | F | T | T | T |
+
+<i>(p ⋁ q) → ¬p ↔ ¬p.</i>
+- Table for (p → ¬q) → (¬p → q) ↔ p ⋁ q:
+
+    | P | Q | ¬Q | P → ¬Q | ¬P | ¬P → Q | (P → ¬Q) → (¬P → Q) | P ⋁ Q | (P → ¬Q) → (¬P → Q) ↔ P ⋁ Q |
+    |-------|-------|-------|-----------|-------|-----------|---------------------------|-------|:-------------------------------------:|
+    | T | T | F | F | F | T | T | T | T |
+    | T | F | T | T | F | F | F | T | F |
+    | F | T | F | T | T | T | T | T | T |
+    | F | F | T | T | T | F | F | F | T |
+
+<i>(p → ¬q) → (¬p → q) ↔ p ⋁ q.</i>
 
 </div>
 
@@ -132,17 +317,77 @@
 
 #### Question no. 11
 
-<b>a.</b> <i>(p ⋀ q) → p is a tautology.</i>
+<b>a.</b>
+- Table for (p ⋀ q) → p:
 
-<b>b.</b> <i>p → (p ⋁ q) is a tautology.</i>
+    | P | Q | P ⋀ Q | (P ⋀ Q) → P |
+    |-------|-------|-------|:-------------------:|
+    | T | T | T | T |
+    | T | F | F | T |
+    | F | T | F | T |
+    | F | F | F | T |
 
-<b>c.</b> <i>¬p → (p → q) is a tautology.</i>
+<i>(p ⋀ q) → p is a tautology.</i>
 
-<b>d.</b> <i>(p ⋀ q) → (p → q) is a tautology.</i>
+<b>b.</b>
+- Table for p → (p ⋁ q):
 
-<b>e.</b> <i>¬(p → q) → p is a tautology.</i>
+    | P | Q | P ⋁ Q | P → (P ⋁ Q) |
+    |-------|-------|-------|:-------------------:|
+    | T | T | T | T |
+    | T | F | T | T |
+    | F | T | T | T |
+    | F | F | F | T |
 
-<b>f.</b> <i>¬(p → q) → ¬q is a tautology.</i>
+<i>p → (p ⋁ q) is a tautology.</i>
+
+<b>c.</b>
+- Table for ¬p → (p → q):
+
+    | P | Q | ¬P | P → Q | ¬P → (P → Q) |
+    |-------|-------|-------|-----------|:-----------------------:|
+    | T | T | F | T | T |
+    | T | F | F | F | T |
+    | F | T | T | T | T |
+    | F | F | T | T | T |
+
+<i>¬p → (p → q) is a tautology.</i>
+
+<b>d.</b>
+- Table for (p ⋀ q) → (p → q):
+
+    | P | Q | P ⋀ Q | P → Q | (P ⋀ Q) → (P → Q) |
+    |-------|-------|-------|-----------|:--------------------------:|
+    | T | T | T | T | T |
+    | T | F | F | F | T |
+    | F | T | F | T | T |
+    | F | F | F | T | T |
+
+<i>(p ⋀ q) → (p → q) is a tautology.</i>
+
+<b>e.</b>
+- Table for ¬(p → q) → p:
+
+    | P | Q | P → Q | ¬(P → Q) | ¬(P → Q) → P |
+    |-------|-------|-----------|-------------|:-----------------------:|
+    | T | T | T | F | T |
+    | T | F | F | T | T |
+    | F | T | T | F | T |
+    | F | F | T | F | T |
+
+<i>¬(p → q) → p is a tautology.</i>
+
+<b>f.</b>
+- Table for ¬(p → q) → ¬q:
+
+    | P | Q | P → Q | ¬(P → Q) | ¬Q | ¬(P → Q) → ¬Q |
+    |-------|-------|-----------|-------------|-------|:-------------------------:|
+    | T | T | T | F | F | T |
+    | T | F | F | T | T | T |
+    | F | T | T | F | F | T |
+    | F | F | T | F | T | T |
+
+<i>¬(p → q) → ¬q is a tautology.</i>
 
 </div>
 
@@ -151,13 +396,61 @@
 
 #### Question no. 12
 
-<b>a.</b> <i>[¬p ⋀ (p ⋁ q)] → q is a tautology.</i>
+<b>a.</b>
+- Table for [¬p ⋀ (p ⋁ q)] → q:
 
-<b>b.</b> <i>[(p → q) ⋀ (q → r)] → (p → r) is a tautology.</i>
+    | P | Q | ¬P | P ⋁ Q | ¬P ⋀ (P ⋁ Q) | [¬P ⋀ (P ⋁ Q)] → Q |
+    |-------|-------|-------|-------|---------------------|:---------------------------:|
+    | T | T | F | T | F | T |
+    | T | F | F | T | F | T |
+    | F | T | T | T | T | T |
+    | F | F | T | F | F | T |
 
-<b>c.</b> <i>[p ⋀ (p → q)] → q is a tautology.</i>
+<i>[¬p ⋀ (p ⋁ q)] → q is a tautology.</i>
 
-<b>d.</b> <i>[(p ⋁ q) ⋀ (p → r) ⋀ (q → r)] → r is a tautology.</i>
+<b>b.</b>
+- Table for [(p → q) ⋀ (q → r)] → (p → r):
+
+    | P | Q | R | P → Q | Q → R | (P → Q) ⋀ (Q → R) | P → R | [(P → Q) ⋀ (Q → R)] → (P → R) |
+    |-------|-------|-------|-----------|-----------|---------------------------|-----------|:-------------------------------------:|
+    | T | T | T | T | T | T | T | T |
+    | T | T | F | T | F | F | F | T |
+    | T | F | T | F | T | F | T | T |
+    | T | F | F | F | F | F | F | T |
+    | F | T | T | T | T | T | T | T |
+    | F | T | F | T | F | F | T | T |
+    | F | F | T | T | T | T | T | T |
+    | F | F | F | T | F | F | T | T |
+
+<i>[(p → q) ⋀ (q → r)] → (p → r) is a tautology.</i>
+
+<b>c.</b>
+- Table for [p ⋀ (p → q)] → q:
+
+    | P | Q | P → Q | P ⋀ (P → Q) | [P ⋀ (P → Q)] → Q |
+    |-------|-------|-----------|---------------------|:---------------------------:|
+    | T | T | T | T | T |
+    | T | F | F | F | T |
+    | F | T | T | F | T |
+    | F | F | T | F | T |
+
+<i>[p ⋀ (p → q)] → q is a tautology.</i>
+
+<b>d.</b>
+- Table for [(p ⋁ q) ⋀ (p → r) ⋀ (q → r)] → r:
+
+    | P | Q | R | P ⋁ Q | P → R | Q → R | (P ⋁ Q) ⋀ (P → R) ⋀ (Q → R) | [(P ⋁ Q) ⋀ (P → R) ⋀ (Q → R)] → R |
+    |-------|-------|-------|-------|-----------|-----------|-------------------------------|:-------------------------------------:|
+    | T | T | T | T | T | T | T | T |
+    | T | T | F | T | F | F | F | T |
+    | T | F | T | T | T | T | T | T |
+    | T | F | F | T | F | T | F | T |
+    | F | T | T | T | T | T | T | T |
+    | F | T | F | T | T | F | F | T |
+    | F | F | T | F | T | T | F | T |
+    | F | F | F | F | T | F | F | T |
+
+<i>[(p ⋁ q) ⋀ (p → r) ⋀ (q → r)] → r is a tautology.</i>
 
 </div>
 
@@ -201,9 +494,29 @@
 
 #### Question no. 17
 
-<b>a.</b> <i>p ⋁ (p ⋀ q) ↔ p, since p being true already makes the whole expression true, and if p is false, both sides are false.</i>
+<b>a.</b>
+- Table for p ⋁ (p ⋀ q) ↔ p:
 
-<b>b.</b> <i>p ⋀ (p ⋁ q) ↔ p, since p must be true for the conjunction to be true, and then both sides match.</i>
+    | P | Q | P ⋀ Q | P ⋁ (P ⋀ Q) | P ⋁ (P ⋀ Q) ↔ P |
+    |-------|-------|-------|---------------------|:-------------------------:|
+    | T | T | T | T | T |
+    | T | F | F | T | T |
+    | F | T | F | F | T |
+    | F | F | F | F | T |
+    
+<i>p ⋁ (p ⋀ q) ↔ p, since p being true already makes the whole expression true, and if p is false, both sides are false.</i>
+
+<b>b.</b>
+- Table for p ⋀ (p ⋁ q) ↔ p:
+
+    | P | Q | P ⋁ Q | P ⋀ (P ⋁ Q) | P ⋀ (P ⋁ Q) ↔ P |
+    |-------|-------|-------|---------------------|:-------------------------:|
+    | T | T | T | T | T |
+    | T | F | T | T | T |
+    | F | T | T | F | T |
+    | F | F | F | F | T |
+    
+<i>p ⋀ (p ⋁ q) ↔ p, since p must be true for the conjunction to be true, and then both sides match.</i>
 
 </div>
 
