@@ -81,4 +81,5 @@ Notes
 
 git ignore file to exclude node_modules and env files
 # .gitignore
+node_modules/
 
