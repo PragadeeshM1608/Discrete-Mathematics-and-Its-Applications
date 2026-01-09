@@ -75,20 +75,16 @@
 
 
 ## 1.2 Applications of Propositional Logic
-<br>
 
 ### System Specifications
-<br>
 
-**consistency**: if there is at least one assignment of truth values to its propositions that makes the entire specification true.<br>
-**inconsistency**: if there is no assignment of truth values to its propositions that makes the entire specification true.
-
+  - **consistency**: if there is at least one assignment of truth values to its propositions that makes the entire specification true.<br>
+  - **inconsistency**: if there is no assignment of truth values to its propositions that makes the entire specification true.
 
 
 
 
 ## 1.3 Propositional Equivalences
-<br>
 
 - **Tautology**: A compound proposition that is always true, regardless of the truth values of its component propositions.
 - **Contradiction**: A compound proposition that is always false, regardless of the truth values of its component propositions.
@@ -100,159 +96,121 @@
   <summary>Logical Equivalences</summary>
   <p>
 
-  - **De Morgan's Laws**:
-  - ¬(P ∧ Q) ≡ ¬P ∨ ¬Q
-  - ¬(P ∨ Q) ≡ ¬P ∧ ¬Q
-  - 
-- **Implication Equivalence**:
-  - P → Q ≡ ¬P ∨ Q
-  - P ↔ Q ≡ (P → Q) ∧ (Q → P)
-- **Double Negation**:
-  - ¬(¬P) ≡ P
-- **Distributive Laws**:
-  - P ∧ (Q ∨ R) ≡ (P ∧ Q) ∨ (P ∧ R)
-  - P ∨ (Q ∧ R) ≡ (P ∨ Q) ∧ (P ∨ R)
-- **Commutative Laws**: 
-  - P ∧ Q ≡ Q ∧ P
-  - P ∨ Q ≡ Q ∨ P
-- **Associative Laws**:
-  - (P ∧ Q) ∧ R ≡ P ∧ (Q ∧ R)
-  - (P ∨ Q) ∨ R ≡ P ∨ (Q ∨ R)
-- **Identity Laws**:
-  - P ∧ T ≡ P
-  - P ∨ F ≡ P
-- **Domination Laws**:
-  - P ∨ T ≡ T
-  - P ∧ F ≡ F
-- **Idempotent Laws**:
-  - P ∨ P ≡ P
-  - P ∧ P ≡ P
-- **Absorption Laws**:
-  - P ∨ (P ∧ Q) ≡ P
-  - P ∧ (P ∨ Q) ≡ P
-- **Negation Laws**:
-  - P ∨ ¬P ≡ T
-  - P ∧ ¬P ≡ F
-- **Contrapositive**:
-  - P → Q ≡ ¬Q → ¬P
-- **Biconditional Equivalence**:
-  - P ↔ Q ≡ (P ∧ Q) ∨ (¬P ∧ ¬Q)
-- **Exclusive OR**:
-  - P ⊕ Q ≡ (P ∨ Q) ∧ ¬(P ∧ Q)
-- **Absorption with Negation**:
-  - P ∨ ¬(P ∧ Q) ≡ P ∨ ¬Q
-  - P ∧ ¬(P ∨ Q) ≡ P ∧ ¬Q
-- **Distributive with Negation**:
-  - ¬P ∨ (P ∧ Q) ≡ ¬P ∨ Q
-  - ¬P ∧ (P ∨ Q) ≡ ¬P ∧ Q
-- **Redundancy Laws**:
-  - P ∨ (P ∧ ¬Q) ≡ P ∨ Q
-  - P ∧ (P ∨ ¬Q) ≡ P ∧ Q
-- **Consensus Theorem**:
-  - (P ∧ Q) ∨ (¬P ∧ R) ∨ (Q ∧ R) ≡ (P ∧ Q) ∨ (¬P ∧ R)
-- **Distributive with Biconditional**:
-  - P ↔ (Q ∨ R) ≡ (P ↔ Q) ∨ (P ↔ R)
-  - P ↔ (Q ∧ R) ≡ (P ↔ Q) ∧ (P ↔ R)
-- **Implication with Biconditional**:
-  - P → (Q ↔ R) ≡ (P → Q) ↔ (P → R)
-  - (P ↔ Q) → R ≡ (P → R) ↔ (Q → R)
-- **Negation of Biconditional**:
-  - ¬(P ↔ Q) ≡ P ⨁ Q
-- **Negation of Implication**:
-  - ¬(P → Q) ≡ P ∧ ¬Q
-- **Distributive with Implication**:
-  - P → (Q ∧ R) ≡ (P → Q) ∧ (P → R)
-  - P → (Q ∨ R) ≡ (P → Q) ∨ (P → R)
-  - (P ∧ Q) → R ≡ P → (Q → R)
-  - (P ∨ Q) → R ≡ (P → R) ∧ (Q → R)
-- **Absorption with Implication**:
-  - P ∨ (P → Q) ≡ T
-  - P ∧ (P → Q) ≡ P
-- **Absorption with Biconditional**:
-  - P ∨ (P ↔ Q) ≡ T
-  - P ∧ (P ↔ Q) ≡ P
-- **Redundancy with Implication**:
-  - P → (P ∨ Q) ≡ T
-  - P → (P ∧ Q) ≡ P
-- **Redundancy with Biconditional**:
-  - P ↔ (P ∨ Q) ≡ T
-  - P ↔ (P ∧ Q) ≡ P
-- **Consensus with Implication**:
-  - (P → Q) ∨ (¬P → R) ∨ (Q → R) ≡ (P → Q) ∨ (¬P → R)
-- **Consensus with Biconditional**:
-  - (P ↔ Q) ∨ (¬P ↔ R) ∨ (Q ↔ R) ≡ (P ↔ Q) ∨ (¬P ↔ R)
-- **Distributive with Negation of Implication**:
-  - ¬(P → Q) ∨ R ≡ (¬P ∨ Q) ∨ R
-  - ¬(P → Q) ∧ R ≡ (¬P ∨ Q) ∧ R
-- **Distributive with Negation of Biconditional**:
-  - ¬(P ↔ Q) ∨ R ≡ (P ⊕ Q) ∨ R
-  - ¬(P ↔ Q) ∧ R ≡ (P ⊕ Q) ∧ R
-- **Absorption with Negation of Implication**:
-  - P ∨ ¬(P → Q) ≡ P ∨ (P ∧ ¬Q) ≡ P ∨ ¬Q
-  - P ∧ ¬(P → Q) ≡ P ∧ (P ∧ ¬Q) ≡ P ∧ ¬Q
-- **Absorption with Negation of Biconditional**:
-  - P ∨ ¬(P ↔ Q) ≡ P ∨ (P ⊕ Q) ≡ T
-  - P ∧ ¬(P ↔ Q) ≡ P ∧ (P ⊕ Q) ≡ F
-- **Redundancy with Negation of Implication**:
-  - P → ¬(P → Q) ≡ P → (P ∧ ¬Q) ≡ P → ¬Q
-  -  P ↔ ¬(P → Q) ≡ P ↔ (P ∧ ¬Q) ≡ F
-- **Redundancy with Negation of Biconditional**:
-  - P → ¬(P ↔ Q) ≡ P → (P ⊕ Q) ≡ T
-  - P ↔ ¬(P ↔ Q) ≡ P ↔ (P ⊕ Q) ≡ ¬Q
-- **Consensus with Negation of Implication**:
-  - (P → Q) ∨ (¬P → R) ∨ ¬(Q → R) ≡ (P → Q) ∨ (¬P → R)
-- **Consensus with Negation of Biconditional**:
-  - (P ↔ Q) ∨ (¬P ↔ R) ∨ ¬(Q ↔ R) ≡ (P ↔ Q) ∨ (¬P ↔ R)
-- **Distributive with Exclusive OR**:
-  - P ⊕ (Q ∨ R) ≡ (P ⊕ Q) ∨ (P ⊕ R)
-  - P ⊕ (Q ∧ R) ≡ (P ⊕ Q) ∧ (P ⊕ R)
-  - (P ∨ Q) ⊕ R ≡ (P ⊕ R) ∨ (Q ⊕ R)
-  - (P ∧ Q) ⊕ R ≡ (P ⊕ R) ∧ (Q ⊕ R)
-- **Implication with Exclusive OR**:
-  - P → (Q ⊕ R) ≡ (P → Q) ⊕ (P → R)
-  - (P ⊕ Q) → R ≡ (P → R) ⊕ (Q → R)
-- **Biconditional with Exclusive OR**:
-  - P ↔ (Q ⊕ R) ≡ (P ↔ Q) ⊕ (P ↔ R)
-  - (P ⊕ Q) ↔ R ≡ (P ↔ R) ⊕ (Q ↔ R)
-- **Negation of Exclusive OR**:
-  - ¬(P ⊕ Q) ≡ P ↔ Q
-- **Absorption with Exclusive OR**:
-  - P ∨ (P ⊕ Q) ≡ T
-  - P ∧ (P ⊕ Q) ≡ F
-- **Redundancy with Exclusive OR**:
-  - P → (P ⊕ Q) ≡ T
-  - P ↔ (P ⊕ Q) ≡ ¬Q
-- **Consensus with Exclusive OR**:
-  - (P ⊕ Q) ∨ (¬P ⊕ R) ∨ (Q ⊕ R) ≡ (P ⊕ Q) ∨ (¬P ⊕ R)
-  - (P ⊕ Q) ∧ (¬P ⊕ R) ∧ (Q ⊕ R) ≡ (P ⊕ Q) ∧ (¬P ⊕ R)
-- **Mixed Operations**:
-  - Various combinations of the above equivalences can be applied to simplify complex logical expressions involving multiple operators.
-- **Nested Expressions**:
-  - Logical equivalences can be applied recursively to simplify nested logical expressions.
-- **Conditional and Biconditional Chains**:
-  - Chains of implications or biconditionals can be simplified using the above equivalences.
-- **Distributive with Mixed Operators**:
-  - P ∧ (Q → R) ≡ (P ∧ ¬Q) ∨ (P ∧ R)
-  - P ∨ (Q → R) ≡ (P ∨ ¬Q) ∧ (P ∨ R)
-  - P ∧ (Q ↔ R) ≡ (P ∧ Q ∧ R) ∨ (P ∧ ¬Q ∧ ¬R)
-  - P ∨ (Q ↔ R) ≡ (P ∨ Q ∨ ¬R) ∧ (P ∨ ¬Q ∨ R)
-  - (P → Q) ∧ R ≡ (¬P ∨ Q) ∧ R
-  - (P ↔ Q) ∨ R ≡ (P ∧ Q) ∨ (¬P ∧ ¬Q) ∨ R
-  - (P ⊕ Q) ∧ R ≡ ((P ∨ Q) ∧ ¬(P ∧ Q)) ∧ R
-  - (P ⊕ Q) ∨ R ≡ ((P ∨ Q) ∧ ¬(P ∧ Q)) ∨ R
-- **Combination of Negations**:
-  - ¬(P ∧ (Q → R)) ≡ ¬P ∨ (Q ∧ ¬R)
-  - ¬(P ∨ (Q ↔ R)) ≡ ¬P ∧ (Q ⊕ R)
-  - ¬((P ⊕ Q) ∧ R) ≡ (P ↔ Q) ∨ ¬R
-  - ¬((P ⊕ Q) ∨ R) ≡ (P ↔ Q) ∧ ¬R
-  - ¬(P → (Q ∧ R)) ≡ P ∧ (¬Q ∨ ¬R)
-  - ¬(P ↔ (Q ∨ R)) ≡ P ⊕ (Q ∨ R)
-  - ¬(P ⊕ (Q ∧ R)) ≡ P ↔ (Q ∧ R)
-  - ¬((P → Q) ∨ R) ≡ P ∧ ¬Q ∧ ¬R
-  - ¬((P ↔ Q) ∧ R) ≡ (P ⊕ Q) ∨ ¬R
-  - ¬((P ⊕ Q) → R) ≡ (P ∧ ¬Q) ∧ ¬R
-   
+<br>
 
+- **Common Logical Equivalences:**
 
-  </p>
+  | Name                     | Equivalence                          | Description                                      |
+  |--------------------------|--------------------------------------|--------------------------------------------------|
+  | Identity Laws            | `P ∧ T ≡ P`, `P ∨ F ≡ P`                 | Identity laws for AND and OR                     |
+  | Domination Laws          | `P ∧ F ≡ F`, `P ∨ T ≡ T`                 | Domination laws for AND and OR                   |
+  | Idempotent Laws          | `P ∧ P ≡ P`, `P ∨ P ≡ P`                 | Idempotent laws for AND and OR                   |
+  | Double Negation Law      | `¬(¬P) ≡ P`                            | Double negation law                              |
+  | Commutative Laws         | `P ∧ Q ≡ Q ∧ P`, `P ∨ Q ≡ Q ∨ P`         | Commutative laws for AND and OR                  |
+  | Associative Laws         | `(P ∧ Q) ∧ R ≡ P ∧ (Q ∧ R)`, `(P ∨ Q) ∨ R ≡ P ∨ (Q ∨ R)` | Associative laws for AND and OR                  |
+  | Distributive Laws        | `(P ∧ Q) ∨ R ≡ (P ∨ R) ∧ (Q ∨ R)`, `(P ∨ Q) ∧ R ≡ (P ∧ R) ∨ (Q ∧ R)` | Distributive laws                                |
+  | De Morgan's Laws         | `¬(P ∧ Q) ≡ ¬P ∨ ¬Q`, `¬(P ∨ Q) ≡ ¬P ∧ ¬Q` | De Morgan's laws                                 |
+  | Absorption Laws          | `P ∧ (P ∨ Q) ≡ P`, `P ∨ (P ∧ Q) ≡ P`     | Absorption laws                                  |
+  | Negation Laws            | `¬T = F`, `¬F = T`                       | Negation laws                                    |
+
+<br>
+
+- **Conditional Equivalences(implications):**
+  | Name                     | Equivalence                          | Description                                      |
+  |--------------------------|--------------------------------------|--------------------------------------------------|
+  | Contrapositive           | `P → Q ≡ ¬Q → ¬P`                      | Contrapositive law                               |
+  | Converse                 | `P → Q ≡ Q → P`                        | Converse law                                     |
+  | Inverse                  | `P → Q ≡ ¬P → ¬Q`                      | Inverse law                                      |
+  | Material Implication    | `P → Q ≡ ¬P ∨ Q`                       | Material implication equivalence                 |
+  | Exportation               | `(P ∧ Q) → R ≡ P → (Q → R)`             | Exportation law                                 |
+  | Implication as Disjunction | `P → Q ≡ ¬P ∨ Q`                       | Implication expressed as disjunction             |
+  | Biconditional as Conjunction of Implications | `P ↔ Q ≡ (P → Q) ∧ (Q → P)`            | Biconditional expressed as conjunction of implications |
+  | Tautology of Implication | `P → P ≡ T`                            | Tautology of implication                         |
+  | Contradiction of Implication | `P ∧ ¬P → Q ≡ T`                        | Contradiction of implication                     |
+  | Implication with Falsehood    | `F → P ≡ T`                            | Implication with falsehood                       |
+  | Implication with Truth        | `P → T ≡ T`                            | Implication with truth                           |
+  | Implication with Negation      | `P → F ≡ ¬P`                           | Implication with negation                        |
+  | Implication with Negated Conclusion | `T → P ≡ P`                            | Implication with negated conclusion              |
+  | Implication with Negated Antecedent | `¬P → Q ≡ P ∨ Q`                       | Implication with negated antecedent              |
+  | Implication with Negated Consequent | `P → ¬Q ≡ ¬P ∨ ¬Q`                     | Implication with negated consequent              |
+  | Implication with Falsehood and Truehood | `F → T ≡ T`                            | Implication with falsehood and truth             |
+  | Implication with Truehood and Falsehood | `T → F ≡ F`                            | Implication with truth and falsehood             |
+  | Implication with Negated Antecedent and Negated Conclusion | `¬P → ¬Q ≡ P ∨ ¬Q`                     | Implication with negated antecedent and negated conclusion |
+  | Implication with Negated Consequent and Negated Antecedent | `¬P → ¬Q ≡ ¬P ∨ ¬Q`                     | Implication with negated consequent and negated antecedent |
+  | Implication with Tautology and Contradiction | `T → F ≡ F`, `F → T ≡ T`                     | Implication with tautology and contradiction     |
+  | Implication with Negated Tautology and Negated Contradiction | `¬T → F ≡ T`, `F → ¬T ≡ T`                     | Implication with negated tautology and negated contradiction |
+  | Implication with Double Negation | `¬(¬P) → Q ≡ P → Q`                       | Implication with double negation                 |
+  | Implication with Contrapositive of Negation | `¬Q → ¬P ≡ P → Q`                       | Implication with contrapositive of negation      |
+  | Implication with Converse of Negation | `Q → P ≡ ¬P → ¬Q`                      | Implication with converse of negation            |
+  | Implication with Inverse of Negation | `¬P → ¬Q ≡ P → Q`                       | Implication with inverse of negation             |
+  | Implication with Negated Antecedent and Conclusion | `¬P → Q ≡ P ∨ Q`                       | Implication with negated antecedent and conclusion |
+  | Implication with Antecedent and Negated Conclusion | `P → ¬Q ≡ ¬P ∨ ¬Q`                     | Implication with antecedent and negated conclusion |
+  | Implication with Negated Antecedent and Negated Conclusion | `¬P → ¬Q ≡ P ∨ ¬Q`                     | Implication with negated antecedent and negated conclusion |
+  | Implication with Antecedent and Conclusion | `P → Q ≡ ¬P ∨ Q`                       | Implication with antecedent and conclusion       |
+  | Implication with Negated Antecedent and Conclusion | `¬P → Q ≡ P ∨ Q`                       | Implication with negated antecedent and conclusion |
+  | Implication with Antecedent and Negated Conclusion | `P → ¬Q ≡ ¬P ∨ ¬Q`                     | Implication with antecedent and negated conclusion |
+  | Implication with Negated Antecedent and Negated Conclusion | `¬P → ¬Q ≡ P ∨ ¬Q`                     | Implication with negated antecedent and negated conclusion |
+  | Implication with Tautology and Contradiction | `T → F ≡ F`, `F → T ≡ T`                     | Implication with tautology and contradiction     |
+  | Implication with Negated Tautology and Negated Contradiction | `¬T → F ≡ T`, `F → ¬T ≡ T`                     | Implication with negated tautology and negated contradiction |
+
+<br>
+
+- **Biconditional Equivalences:**
+  | Name                     | Equivalence                          | Description                                      |
+  |--------------------------|--------------------------------------|--------------------------------------------------|
+  | Definition               | `P ↔ Q ≡ (P → Q) ∧ (Q → P)`            | Definition of biconditional                      |
+  | Contrapositive           | `P ↔ Q ≡ ¬Q ↔ ¬P`                      | Contrapositive law for biconditional             |
+  | Converse                 | `P ↔ Q ≡ Q ↔ P`                        | Converse law for biconditional                   |
+  | Inverse                  | `P ↔ Q ≡ ¬P ↔ ¬Q`                      | Inverse law for biconditional                    |
 </details>
+
+### Satisfiability
+  - **Satisfiability**: if there is at least one assignment of truth values to its component propositions that makes the entire proposition true.
+  - **Unsatisfiability**:if there is no assignment of truth values to its component propositions that makes the entire proposition true.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
