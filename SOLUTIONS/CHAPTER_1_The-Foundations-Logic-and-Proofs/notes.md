@@ -66,11 +66,11 @@
 
     | Operator | Symbol | Ways to Express in English |
     |----------|--------|----------------------------|
-    | AND      | ∧      | and,&nbsp;&nbsp; but&nbsp;&nbsp;, also&nbsp;&nbsp;, moreover&nbsp;&nbsp;, furthermore&nbsp;&nbsp;, together with&nbsp;&nbsp;, as well as |
-    | OR       | ∨      | or&nbsp;&nbsp;, unless&nbsp;&nbsp;, otherwise&nbsp;&nbsp;, either…or…&nbsp;&nbsp;, and/or |
-    | XOR      | ⊕      | either…or… but not both&nbsp;&nbsp;, or… but not both&nbsp;&nbsp;, exclusively |
-    | IMPLIES  | →      | if…then…&nbsp;&nbsp;, implies&nbsp;&nbsp;, therefore&nbsp;&nbsp;, hence&nbsp;&nbsp;, consequently&nbsp;&nbsp;, whenever |
-    | BICONDITIONAL | ↔ | if and only if&nbsp;&nbsp;, iff&nbsp;&nbsp;, exactly when&nbsp;&nbsp;, is equivalent to&nbsp;&nbsp;, same as |
+    | AND      | ∧      | `and`,&nbsp;&nbsp; `but`&nbsp;&nbsp;, `also`&nbsp;&nbsp;, `moreover`&nbsp;&nbsp;, `furthermore`&nbsp;&nbsp;, `together with`&nbsp;&nbsp;, `as well as` |
+    | OR       | ∨      | `or`&nbsp;&nbsp;, `unless`&nbsp;&nbsp;, `otherwise`&nbsp;&nbsp;, `either…or…`&nbsp;&nbsp;, `and/or` |
+    | XOR      | ⊕      | `either…or… but not both`&nbsp;&nbsp;, `or… but not both`&nbsp;&nbsp;, `exclusively` |
+    | IMPLIES  | →      | `if…then…`&nbsp;&nbsp;, `implies`&nbsp;&nbsp;, `therefore`&nbsp;&nbsp;, `hence`&nbsp;&nbsp;, `consequently`&nbsp;&nbsp;, `whenever` |
+    | BICONDITIONAL | ↔ | `if and only if`&nbsp;&nbsp;, `iff`&nbsp;&nbsp;, `exactly when`&nbsp;&nbsp;, `is equivalent to`&nbsp;&nbsp;, `same as` |
 <br>
 
 
